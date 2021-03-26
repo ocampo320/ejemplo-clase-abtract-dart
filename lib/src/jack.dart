@@ -1,6 +1,6 @@
 import 'package:example_extends_implements/src/Person.dart';
 
-class Jack extends Person {
+class Jack implements Person {
 
   @override
   void talk() {
